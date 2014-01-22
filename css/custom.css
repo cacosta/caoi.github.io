@@ -1,0 +1,158 @@
+/*****************************************************************************/
+/*
+/* Custom SASSY CSS
+/* Author: Corina Acosta
+/* Inherits Bootstrap CSS
+/*
+/*****************************************************************************/
+body {
+  font-family: Varela;
+  font-size: 16px;
+  color: #444444; }
+  body a {
+    color: #444444;
+    text-decoration: none; }
+    body a:hover {
+      color: #00d1b1;
+      text-decoration: none; }
+
+/*****************************************************************************/
+/*
+/* Mixins
+/*
+/*****************************************************************************/
+.center {
+  text-align: center; }
+
+/*****************************************************************************/
+/*
+/* Fiipper Animation
+/*
+/*****************************************************************************/
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000; }
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg); }
+
+.flip-container, .front, .back {
+  width: 80px;
+  height: 80px; }
+
+.flipper {
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative; }
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.front {
+  z-index: 2; }
+
+.back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg); }
+
+.front a, .back a {
+  text-indent: -9999px;
+  width: 80px;
+  height: 80px;
+  display: block; }
+
+.front a {
+  background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=80&height=80") no-repeat top center; }
+
+.back a {
+  background: #f7a903 url("../images/logo-text.png") no-repeat top center; }
+
+/*****************************************************************************/
+/*
+/* Main Styles
+/*
+/*****************************************************************************/
+header, footer {
+  padding-top: 15px; }
+
+header .nav {
+  padding: 20px 0;
+  width: 260px; }
+
+.posts {
+  font-size: 1.2em; }
+  .posts li {
+    padding: 5px 0; }
+  .posts .timestamp {
+    color: #00d1b1; }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
+  background-color: #00d1b1; }
+
+/*****************************************************************************/
+/*
+/* Github Banner
+/*
+/*****************************************************************************/
+#github-banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0; }
+
+#banner {
+  height: 149px;
+  width: 149px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0; }
+
+#banner a {
+  display: block;
+  width: 225px;
+  font-size: 14px;
+  font-family: Varela, Helvetica, Arial, sans serif;
+  background-color: #f7a903;
+  color: white;
+  word-spacing: 2px;
+  text-decoration: none;
+  padding: 5px 15px 5px 25px;
+  position: relative;
+  left: 20px;
+  top: -37px;
+  text-align: center;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }

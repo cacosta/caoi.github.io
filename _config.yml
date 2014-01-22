@@ -1,0 +1,8 @@
+name: Corina Acosta
+markdown: redcarpet
+port: 4000
+pygments: true
+permalink: /:categories/:year/:month/:day/:title 
+exclude: ["README.md", "sass"]
+production_url : http://cacosta.github.io
+

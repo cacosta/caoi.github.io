@@ -1,0 +1,161 @@
+/*****************************************************************************/
+/*
+/* Custom SASSY CSS
+/* Author: Corina Acosta
+/* Inherits Bootstrap CSS
+/*
+/*****************************************************************************/
+
+$base-color: #f7a903;
+$primary-text-color: #444;
+$primary-link-color: #444;
+$primary-link-hover-color: #00d1b1;
+$primary-font-family: Varela;
+$light-text: #fff;
+
+body{
+  font-family: $primary-font-family;
+  font-size: 16px;
+  color:$primary-text-color;
+  a{
+    color:$primary-link-color;
+    text-decoration:none;
+
+    &:hover{
+      color:$primary-link-hover-color;
+      text-decoration:none;
+    }
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Mixins
+/*
+/*****************************************************************************/
+@mixin vendor-prefix($name, $value) {
+  @each $vendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {
+    #{$vendor}#{$name}: #{$value};
+  }
+}
+
+.center{text-align: center;}
+
+
+/*****************************************************************************/
+/*
+/* Fiipper Animation
+/*
+/*****************************************************************************/
+.flip-container {
+  @include vendor-prefix('perspective','1000');
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  @include vendor-prefix('transform','rotateY(180deg)');
+}
+
+.flip-container, .front, .back {
+  width: 80px;
+  height: 80px;
+}
+.flipper {
+  @include vendor-prefix('transition', '0.6s');
+  @include vendor-prefix('transform-style', 'preserve-3d');
+  position: relative;
+}
+.front, .back {
+  @include vendor-prefix('backface-visibility', 'hidden');
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+}
+.back {
+  @include vendor-prefix('transform', 'rotateY(180deg)');
+}
+.front a, .back a{
+  text-indent: -9999px;
+  width:80px;
+  height:80px;
+  display: block;
+}
+.front a{background: url('https://graph.facebook.com/iamcorinaacosta/picture?width=80&height=80') no-repeat top center;}
+.back a{background: $base-color url('../images/logo-text.png') no-repeat top center;}
+
+
+/*****************************************************************************/
+/*
+/* Main Styles
+/*
+/*****************************************************************************/
+
+header, footer{
+  padding-top:15px;
+}
+
+header .nav{
+  padding: 20px 0;
+  width: 260px;
+}
+
+.posts{
+  font-size: 1.2em;
+  
+  li{
+    padding:5px 0;
+  }
+
+  .timestamp{
+    color: $primary-link-hover-color;
+  }
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover{
+  background-color: $primary-link-hover-color;
+}
+
+/*****************************************************************************/
+/*
+/* Github Banner
+/*
+/*****************************************************************************/
+
+#github-banner{
+      position: absolute;
+      top: 0;
+      right: 0;
+      border: 0;
+}
+#banner{
+  height: 149px;
+  width: 149px;
+  overflow:hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#banner a{
+  
+  display: block;
+  width: 225px;
+  font-size: 14px;
+  font-family: $primary-font-family, Helvetica, Arial, sans serif;
+  background-color: $base-color;
+  color: $light-text;
+  word-spacing: 2px;
+  text-decoration: none;
+  padding: 5px 15px 5px 25px;
+  
+  position:relative;
+  left: 20px;
+  top: -37px;
+  text-align: center;
+
+  @include vendor-prefix('transform-origin', '0 0');
+  @include vendor-prefix('transform', 'rotate(45deg)');
+  //@include vendor-prefix('box-shadow', '1px 1px 5px 1px #666');
+
+  
+}

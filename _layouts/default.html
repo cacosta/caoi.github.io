@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="description" content="Boston-based Web Developer, Teacher, Dancer turned Ashtangi, photograhper, dog lover, health food nut, and passionate about creating apps to promote social change.">
+        <meta name="keywords" content="Web Developer, Boston, Teacher, Ashtangi, Dancer, Photographer, App Developer, social change">
+        <meta name="author" content="Corina Acosta">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="favicon.png">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/custom.css">
+
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+
+        <!-- Font Awesome Icons -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- For offline use 
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        -->
+
+    </head>
+    <body>
+        <div id="github-banner">
+            <div id="banner"><a href="https://github.com/cacosta" target="_blank">Fork me on GitHub</a></div>
+        </div>
+        <div class="container">
+            <div class="row">
+              <header>
+                <div class="flip-container center-block" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <a href="/" class="img-circle">{{ site.name }}</a>
+                        </div>
+                        <div class="back">
+                            <a href="/" class="img-circle">{{ site.name }}</a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav nav-pills center-block">
+                    <li class="active"><a href="/">Home</a></li>
+                    <!--li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Slides <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://cacosta.github.io/ude2013">UDE 2013</a></li>
+                        </ul>
+                    </li>
+                    <!--li><a href="#">Archive</a></li-->
+                    <li><a href="mailto:iamcorinaacosta@facebook.com">Contact</a></li>
+                </ul>
+              </header>
+            </div><!-- End of header row-->
+
+            {{ content }}
+
+            <div class="row">
+                <footer>
+                    <div class="social center">
+                      <ul class="list-inline">                
+                        <li><a href="https://facebook.com/iamcorinaacosta" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                        <li><a href="https://twitter.com/iamcorinaacosta" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                        <li><a href="https://linkedin.com/in/corinaacosta/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                        <li><a href="https://github.com/cacosta" target="_blank"><i class="fa fa-github-square fa-2x"></i></a></li>
+                        <li><a href="https://instagram.com/iamcorinaacosta" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+                        <li><a href="https://www.flickr.com/photos/corina_acosta" target="_blank"><i class="fa fa-flickr fa-2x"></i></a></li>
+                         </ul>
+                      <p>&copy; {{site.time | date: "%Y"}} <a href="/">Corina Acosta</a></p>
+                    </div>
+                </div>
+            </footer>
+        </div><!-- End of Main Container-->
+
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+        <!-- For offline use 
+        <script src="js/jquery-2.0.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        -->
+    </body>
+</html>
