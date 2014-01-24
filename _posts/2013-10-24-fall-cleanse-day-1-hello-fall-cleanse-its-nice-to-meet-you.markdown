@@ -4,6 +4,7 @@ comments: true
 date: 2013-10-24 21:21:19+00:00
 layout: post
 slug: fall-cleanse-day-1-hello-fall-cleanse-its-nice-to-meet-you
+permalink: fall-cleanse-day-1
 title: 'Fall Cleanse Day 1: Hello Fall Cleanse, It''s Nice To Meet You!'
 wordpress_id: 841
 categories:

@@ -4,15 +4,16 @@ comments: true
 date: 2012-09-16 01:18:37+00:00
 layout: post
 slug: its-the-little-things
+permalink: its-the-little-things
 title: It's The Little Things
 wordpress_id: 511
 categories:
 - body image
 ---
 
-_"You can't be fat and mean Andrea. If you're going to dish it out you've got to be able to lick it up. Fat people are jolly for a reason. Fat repels people, but joy attracts them. Now, I know everybody's laughing at your cruel jokes, but nobody's inviting you to the prom. You can either be fat and jolly or a skinny bitch, it's up to you." - _The Big C
+>"You can't be fat and mean Andrea. If you're going to dish it out you've got to be able to lick it up. Fat people are jolly for a reason. Fat repels people, but joy attracts them. Now, I know everybody's laughing at your cruel jokes, but nobody's inviting you to the prom. You can either be fat and jolly or a skinny bitch, it's up to you." - The Big C
 
-![](http://corinaoffthemat.com/wp-content/uploads/2012/09/skinny-bitch-fit-bitch.jpg)
+![Skinny Bitch Fat Bitch](http://corinaoffthemat.com/wp-content/uploads/2012/09/skinny-bitch-fit-bitch.jpg)
 
 I hopped on the scale during a doctors appointment the other day and to my surprise I lost SIX solid pounds since the beginning of the year! Three of those pounds most likely slid off after I started riding my bike to get around the city while simultaneously cutting back on my latte indulgences. It just goes to show, it's the little things that make a HUGE difference.
 

@@ -4,10 +4,11 @@ comments: true
 date: 2012-07-15 21:54:41+00:00
 layout: post
 slug: i-can-breathe-and-so-can-you
+permalink: i-can-breathe-and-so-can-you
 title: I Can Breathe! And So Can You!
 wordpress_id: 42
 categories:
-- breathing techniques
+- breathe
 - running
 - yoga
 ---

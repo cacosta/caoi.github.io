@@ -4,6 +4,7 @@ comments: true
 date: 2012-08-07 05:02:38+00:00
 layout: post
 slug: its-just-hair
+permalink: its-just-hair
 title: It's Just Hair. Get over it.
 wordpress_id: 348
 categories:
@@ -11,7 +12,7 @@ categories:
 - yoga
 ---
 
-![](http://www.corinaoffthemat.com/wp-content/uploads/2012/09/how_to_calm_frizzy_curly_hair77.jpg)
+![Frizzy Curly Hair](http://www.corinaoffthemat.com/wp-content/uploads/2012/09/how_to_calm_frizzy_curly_hair77.jpg)
 
 I am utterly flabbergasted at the recent criticisms by African-American women directed toward Olympic Gymnast Gabby Douglas regarding the way her hair looks during her athletic performances, remarking how she is "not representing black people" well because her hair doesn't look "kept up". Look, I know us black women are finicky when it comes to our hair, but I'm sorry, is being the first ever African-American woman to earn the women's gymnastics all-around title not a good enough representation? Have you seen _anyone's_ hair after they've sweated buckets during an intense workout? I am amazed female gymnasts can keep their hair as tidy as they do, straight or curly. I can't even run up a flight of stairs without looking like Diana Ross took a shower with her finger stuck in a toaster! What was that? Today's humidity just went up 5 degrees? Great, time to grab a stocking cap.
 

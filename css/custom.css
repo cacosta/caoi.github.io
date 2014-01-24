@@ -42,6 +42,9 @@ header .nav {
   .posts .timestamp {
     color: #00d1b1; }
 
+.post a {
+  color: #00d1b1; }
+
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover {
   background-color: #00d1b1; }
 

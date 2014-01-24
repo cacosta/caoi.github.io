@@ -4,6 +4,7 @@ comments: true
 date: 2012-07-24 14:00:00+00:00
 layout: post
 slug: local-raw-honey-an-allergy-cure
+permalink: local-raw-honey-an-allergy-cure
 title: Local Raw Honey - An Allergy Cure?
 wordpress_id: 126
 categories:
@@ -11,13 +12,15 @@ categories:
 - honey
 ---
 
-![](http://corinaoffthemat.com/wp-content/uploads/2012/09/farmers_market_honey.jpg)
+![Farmers Market Honey](http://corinaoffthemat.com/wp-content/uploads/2012/09/farmers_market_honey.jpg)
 
 There is growing belief that eating locally produced raw honey can alleviate outdoor allergy symptoms, the idea being that ingesting the honey acts like a vaccine. How does this work? Bees end up covered in pollen spores as they buzz from one flower to the next which gets transferred to their honey back at the hive. Some of these spores may be of the same variety found to cause allergy symptoms.
+
 <!-- more -->
+
 Since the concentration of spores in the honey is low, eating it daily can build up immunity through gradual exposure to the local allergens.
 
-[caption id="" align="alignnone" width="640"][![](http://upload.wikimedia.org/wikipedia/commons/f/f7/Honey_comb.jpg)](http://upload.wikimedia.org/wikipedia/commons/f/f7/Honey_comb.jpg) Photo: Wikipedia.com[/caption]
+![Photo: Wikipedia.com](http://upload.wikimedia.org/wikipedia/commons/f/f7/Honey_comb.jpg)
 
 Makes sense, right? Well, unfortunately, not much research has been done to investigate how this actually works or whether it works at all. Most of the plausibility relies on the claims made by allergy sufferers who say eating local honey alleviated their symptoms. The only two studies I could find are contradictive: one [un-published study](http://health.howstuffworks.com/diseases-conditions/allergies/allergy-treatments/local-honey-for-allergies2.htm) states that both seasonal and year-round allergy sufferers benefited from eating the local honey, and another more reliable [published study](http://www.nytimes.com/2011/05/10/health/10really.html) states that allergy suffers had no response even in comparison to a placebo of corn syrup used as a control.
 

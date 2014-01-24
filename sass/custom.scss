@@ -67,6 +67,12 @@ header .nav{
   }
 }
 
+.post{
+  a{
+    color: $primary-link-hover-color;
+  }
+}
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover{
   background-color: $primary-link-hover-color;
 }
