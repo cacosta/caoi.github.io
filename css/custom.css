@@ -21,8 +21,72 @@ body {
 /* Mixins
 /*
 /*****************************************************************************/
-.center {
-  text-align: center; }
+.center-pills {
+  display: inline-block; }
+
+/*****************************************************************************/
+/*
+/* Main Styles
+/*
+/*****************************************************************************/
+header, footer {
+  padding-top: 15px; }
+
+header .nav {
+  padding: 20px 0; }
+
+.posts {
+  font-size: 1.2em; }
+  .posts li {
+    padding: 5px 0; }
+  .posts .timestamp {
+    color: #00d1b1; }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
+  background-color: #00d1b1; }
+
+/*****************************************************************************/
+/*
+/* Github Banner
+/*
+/*****************************************************************************/
+#github-banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0; }
+
+#banner {
+  height: 149px;
+  width: 149px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0; }
+
+#banner a {
+  display: block;
+  width: 225px;
+  font-size: 14px;
+  font-family: Varela, Helvetica, Arial, sans serif;
+  background-color: #f7a903;
+  color: white;
+  word-spacing: 2px;
+  text-decoration: none;
+  padding: 5px 15px 5px 25px;
+  position: relative;
+  left: 20px;
+  top: -37px;
+  text-align: center;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
 
 /*****************************************************************************/
 /*
@@ -91,68 +155,3 @@ body {
 
 .back a {
   background: #f7a903 url("../images/logo-text.png") no-repeat top center; }
-
-/*****************************************************************************/
-/*
-/* Main Styles
-/*
-/*****************************************************************************/
-header, footer {
-  padding-top: 15px; }
-
-header .nav {
-  padding: 20px 0;
-  width: 260px; }
-
-.posts {
-  font-size: 1.2em; }
-  .posts li {
-    padding: 5px 0; }
-  .posts .timestamp {
-    color: #00d1b1; }
-
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
-  background-color: #00d1b1; }
-
-/*****************************************************************************/
-/*
-/* Github Banner
-/*
-/*****************************************************************************/
-#github-banner {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 0; }
-
-#banner {
-  height: 149px;
-  width: 149px;
-  overflow: hidden;
-  padding: 0;
-  margin: 0; }
-
-#banner a {
-  display: block;
-  width: 225px;
-  font-size: 14px;
-  font-family: Varela, Helvetica, Arial, sans serif;
-  background-color: #f7a903;
-  color: white;
-  word-spacing: 2px;
-  text-decoration: none;
-  padding: 5px 15px 5px 25px;
-  position: relative;
-  left: 20px;
-  top: -37px;
-  text-align: center;
-  -webkit-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  -o-transform-origin: 0 0;
-  transform-origin: 0 0;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg); }

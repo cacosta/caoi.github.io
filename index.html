@@ -5,7 +5,7 @@ title: Corina Acosta | Web Developer | Boston
 
 <div class="row">
   <div id="home">
-    <ul class="posts list-unstyled center">
+    <ul class="posts list-unstyled text-center">
       {% for post in site.posts %}
         <li><span class="timestamp">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}

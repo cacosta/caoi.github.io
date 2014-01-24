@@ -39,51 +39,7 @@ body{
   }
 }
 
-.center{text-align: center;}
-
-
-/*****************************************************************************/
-/*
-/* Fiipper Animation
-/*
-/*****************************************************************************/
-.flip-container {
-  @include vendor-prefix('perspective','1000');
-}
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-  @include vendor-prefix('transform','rotateY(180deg)');
-}
-
-.flip-container, .front, .back {
-  width: 80px;
-  height: 80px;
-}
-.flipper {
-  @include vendor-prefix('transition', '0.6s');
-  @include vendor-prefix('transform-style', 'preserve-3d');
-  position: relative;
-}
-.front, .back {
-  @include vendor-prefix('backface-visibility', 'hidden');
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.front {
-  z-index: 2;
-}
-.back {
-  @include vendor-prefix('transform', 'rotateY(180deg)');
-}
-.front a, .back a{
-  text-indent: -9999px;
-  width:80px;
-  height:80px;
-  display: block;
-}
-.front a{background: url('https://graph.facebook.com/iamcorinaacosta/picture?width=80&height=80') no-repeat top center;}
-.back a{background: $base-color url('../images/logo-text.png') no-repeat top center;}
-
+.center-pills { display: inline-block; }
 
 /*****************************************************************************/
 /*
@@ -97,7 +53,6 @@ header, footer{
 
 header .nav{
   padding: 20px 0;
-  width: 260px;
 }
 
 .posts{
@@ -159,3 +114,45 @@ header .nav{
 
   
 }
+
+/*****************************************************************************/
+/*
+/* Fiipper Animation
+/*
+/*****************************************************************************/
+.flip-container {
+  @include vendor-prefix('perspective','1000');
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  @include vendor-prefix('transform','rotateY(180deg)');
+}
+
+.flip-container, .front, .back {
+  width: 80px;
+  height: 80px;
+}
+.flipper {
+  @include vendor-prefix('transition', '0.6s');
+  @include vendor-prefix('transform-style', 'preserve-3d');
+  position: relative;
+}
+.front, .back {
+  @include vendor-prefix('backface-visibility', 'hidden');
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+}
+.back {
+  @include vendor-prefix('transform', 'rotateY(180deg)');
+}
+.front a, .back a{
+  text-indent: -9999px;
+  width:80px;
+  height:80px;
+  display: block;
+}
+.front a{background: url('https://graph.facebook.com/iamcorinaacosta/picture?width=80&height=80') no-repeat top center;}
+.back a{background: $base-color url('../images/logo-text.png') no-repeat top center;}
