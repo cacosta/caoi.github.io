@@ -4,5 +4,5 @@ port: 4000
 pygments: true
 permalink: /:categories/:year/:month/:day/:title 
 exclude: ["README.md", "sass"]
-production_url : http://cacosta.github.io
+production_url : http://iamca.github.io
 
