@@ -3,8 +3,8 @@ author: admin
 comments: true
 date: 2012-06-27 20:08:14+00:00
 layout: post
-slug: hello-world-2
-permalink: hello-world-2
+slug: hello-world
+permalink: hello-world
 title: What Has Yoga Done For Me Lately?
 wordpress_id: 5
 categories:

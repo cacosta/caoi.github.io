@@ -4,7 +4,6 @@ comments: true
 date: 2013-10-28 05:00:21+00:00
 layout: post
 slug: own-that-slutty-_____-costume
-permalink: own-that-slutty-_____-costume
 title: Own That Slutty _____ Costume!
 wordpress_id: 816
 categories:
