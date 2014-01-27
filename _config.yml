@@ -4,8 +4,7 @@ markdown: redcarpet
 port: 4000
 pygments: true
 permalink: /:categories/:year/:month/:day/:title 
-exclude: ["README.md", "sass"]
-production_url : http://iamca.github.io
+exclude: ["README.md", "sass", ".sass-cache"]
 url : http://iamca.github.io
 paginate: 5
 excerpt_separator: "\n\n"

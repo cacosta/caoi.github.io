@@ -7,6 +7,7 @@ title: Local Raw Honey - An Allergy Cure?
 categories:
 - health
 ---
+
 ![Farmers Market Honey](http://corinaoffthemat.com/wp-content/uploads/2012/09/farmers_market_honey.jpg) There is growing belief that eating locally produced raw honey can alleviate outdoor allergy symptoms, the idea being that ingesting the honey acts like a vaccine. How does this work? Bees end up covered in pollen spores as they buzz from one flower to the next which gets transferred to their honey back at the hive. Some of these spores may be of the same variety found to cause allergy symptoms.
 
 Since the concentration of spores in the honey is low, eating it daily can build up immunity through gradual exposure to the local allergens.

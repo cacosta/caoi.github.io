@@ -4,7 +4,6 @@ date: 2013-02-21 21:19:57+00:00
 layout: post
 permalink: yoga-stuff
 title: Yoga Stuff
-excerpt_separator: <!--more-->
 categories:
 - yoga
 ---
