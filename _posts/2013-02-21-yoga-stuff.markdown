@@ -1,25 +1,15 @@
 ---
-author: cacosta12
 comments: true
 date: 2013-02-21 21:19:57+00:00
 layout: post
-slug: yoga-stuff
 permalink: yoga-stuff
 title: Yoga Stuff
-wordpress_id: 677
+excerpt_separator: <!--more-->
 categories:
-- consumerism
 - yoga
-- yogic philosophy
 ---
 
->As Vazirani ruefully writes_, "The Americanization of yoga includes strain. A higher rate of injury than yoga practiced in Asian countries. Emphasis is on postures only. Competition. Merchandise: mats, pillows, eye bags, blankets, blocks, ropes, tanks, shorts, T-shirts. J. Crew yoga clothes . . . . Yoga becomes something we must own."_ ~ Reetika Vazirani, a poet and author of the forthcoming collection _World Hotel_ (Copper Canyon, 2002) [Source: [Yoga Journal](http://www.yogajournal.com/lifestyle/672) ]
-
-Something we must own. Hmmm.
-
 ![athleta-store](http://corinaoffthemat.com/wp-content/uploads/2013/02/athleta-store-300x199.jpeg) The other day I amused myself by walking into an Athleta store that recently opened up to see what the hype was all about, and somewhere between the crazy toe socks that keep you from sliding around on your mat and the overly complicated yoga bags that hold everything but the kitchen sink, I began to feel disoriented. Where did all of this "yoga stuff" come from and who really needs any of it to benefit from the practice of Asana?
-
-<!-- more -->
 
 The same exasperated feeling washes over me every time I see someone
 in a yoga class going through the extraneous ritual of placing one of
@@ -29,6 +19,10 @@ just seems so overly-complicated and unnecessary. Or perhaps I am just
 being a [Yoga Bitch](http://www.amazon.com/gp/product/0307717445/ref=a
 s_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0307717445&lin
 kCode=as2&tag=fla002-20)?
+
+>As Vazirani ruefully writes_, "The Americanization of yoga includes strain. A higher rate of injury than yoga practiced in Asian countries. Emphasis is on postures only. Competition. Merchandise: mats, pillows, eye bags, blankets, blocks, ropes, tanks, shorts, T-shirts. J. Crew yoga clothes . . . . Yoga becomes something we must own."_ ~ Reetika Vazirani, a poet and author of the forthcoming collection _World Hotel_ (Copper Canyon, 2002) [Source: [Yoga Journal](http://www.yogajournal.com/lifestyle/672) ]
+
+Something we must own. Hmmm. 
 
 Many people who practice Yoga are being taken advantage of as a
 consumer demographic and sold things they don't really need, all in

@@ -1,0 +1,68 @@
+/*
+Syntax error: Undefined variable: "$primary-font-family".
+        on line 46 of sass/global.scss
+
+41: 
+42: #banner a{
+43:   display: block;
+44:   width: 225px;
+45:   font-size: 14px;
+46:   font-family: $primary-font-family, Helvetica, Arial, sans serif;
+47:   background-color: $ribbon-color;
+48:   color: $light-text;
+49:   word-spacing: 2px;
+50:   text-decoration: none;
+51:   padding: 5px 15px 5px 25px;
+
+Backtrace:
+sass/global.scss:46
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/script/variable.rb:49:in `_perform'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/script/list.rb:71:in `block in _perform'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/script/list.rb:71:in `map'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/script/list.rb:71:in `_perform'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/Users/cacosta/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/darwin.rb:38:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$primary-font-family\".\A         on line 46 of sass/global.scss\A \A 41: \A 42: #banner a{\A 43:   display: block;\A 44:   width: 225px;\A 45:   font-size: 14px;\A 46:   font-family: $primary-font-family, Helvetica, Arial, sans serif;\A 47:   background-color: $ribbon-color;\A 48:   color: $light-text;\A 49:   word-spacing: 2px;\A 50:   text-decoration: none;\A 51:   padding: 5px 15px 5px 25px;"; }

@@ -1,63 +1,33 @@
 /*****************************************************************************/
 /*
-/* Custom SASSY CSS
+/* Custom Site Specific SASSY CSS
 /* Author: Corina Acosta
 /* Inherits Bootstrap CSS
 /*
 /*****************************************************************************/
-body {
-  font-family: Varela;
-  font-size: 16px;
-  color: #444444; }
-  body a {
-    color: #444444;
-    text-decoration: none; }
-    body a:hover {
-      color: #00d1b1;
-      text-decoration: none; }
-
 /*****************************************************************************/
 /*
-/* Mixins
+/* Global SASSY CSS
+/* Author: Corina Acosta
+/* CSS Globals
 /*
 /*****************************************************************************/
-.center-pills {
-  display: inline-block; }
-
 /*****************************************************************************/
 /*
-/* Main Styles
+/* Global Mixins
 /*
 /*****************************************************************************/
-header, footer {
-  padding-top: 15px; }
-
-header .nav {
-  padding: 20px 0; }
-
-.posts {
-  font-size: 1.2em; }
-  .posts li {
-    padding: 5px 0; }
-  .posts .timestamp {
-    color: #00d1b1; }
-
-.post a {
-  color: #00d1b1; }
-
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
-  background-color: #00d1b1; }
-
 /*****************************************************************************/
 /*
 /* Github Banner
 /*
 /*****************************************************************************/
 #github-banner {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  border: 0; }
+  border: 0;
+  z-index: 9999; }
 
 #banner {
   height: 149px;
@@ -158,3 +128,48 @@ header .nav {
 
 .back a {
   background: #f7a903 url("../assets/logo-text.png") no-repeat top center; }
+
+/*****************************************************************************/
+/*
+/* Main Styles
+/*
+/*****************************************************************************/
+body {
+  margin-top: 100px;
+  font-family: Varela;
+  font-size: 16px;
+  color: #444444; }
+  body a {
+    color: #01ad90;
+    text-decoration: none; }
+    body a:hover {
+      color: #00d1b1;
+      text-decoration: none; }
+
+.navbar {
+  padding: 8px 0; }
+  .navbar .nav {
+    padding-top: 15px; }
+
+#home .posts img {
+  float: left;
+  max-width: 20%;
+  height: auto;
+  margin-right: 15px; }
+#home .posts blockquote {
+  visibility: hidden; }
+#home .posts li {
+  padding: 10px 0; }
+  #home .posts li:after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.post img {
+  float: left;
+  max-width: 30%;
+  height: auto;
+  padding: 0 15px 15px 0; }
+
+footer {
+  margin: 50px 0; }

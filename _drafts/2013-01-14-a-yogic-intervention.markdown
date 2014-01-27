@@ -14,9 +14,7 @@ categories:
 - yogic philosophy
 ---
 
-![Sculpture](http://corinaoffthemat.com/wp-content/uploads/2013/01/IMG_1359.jpeg)
-
-Diving "third-eye" first into the book [_The Yoga Sutras of Patanjali_
+![Sculpture](http://corinaoffthemat.com/wp-content/uploads/2013/01/IMG_1359.jpeg) Diving "third-eye" first into the book [_The Yoga Sutras of Patanjali_
 ](http://www.amazon.com/gp/product/1938477073/ref=as_li_tf_tl?ie=UTF8&
 tag=fla002-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=193847
 7073) during my first philosophical discussion at Yoga Teacher

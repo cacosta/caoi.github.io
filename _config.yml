@@ -1,9 +1,11 @@
-name: Corina Acosta
+name: Corina Acosta | Web Developer | Boston
+author: Corina Acosta
 markdown: redcarpet
 port: 4000
 pygments: true
 permalink: /:categories/:year/:month/:day/:title 
 exclude: ["README.md", "sass"]
 production_url : http://iamca.github.io
+url : http://iamca.github.io
 paginate: 5
-
+excerpt_separator: "\n\n"

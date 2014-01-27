@@ -13,17 +13,13 @@ categories:
 - yoga
 ---
 
-![Art by Melissa Sherbon](http://www.corinaoffthemat.com/wp-content/uploads/2012/09/breathe-melissa-sherbon-240x300.jpg)
-
-Alright, I know the title of this post sounds a little bit like a bad late-
+![Art by Melissa Sherbon](http://www.corinaoffthemat.com/wp-content/uploads/2012/09/breathe-melissa-sherbon-240x300.jpg) Alright, I know the title of this post sounds a little bit like a bad late-
 night infomercial for a high-tech asthma inhaler, but just bare with me on
 this one. On Monday, I went for a 3 mile run! My first run in a year to be
 exact. I know all you "real" runners out there are probably laughing your
 little fit booties off saying, "Only 3 miles? That's nothing! I run three
 miles just to grab a cup of coffee in the morning!" But hey, we all have to
 start somewhere, right?
-
-<!-- more -->
 
 Sure, I do a lot of yoga, but that doesn't get my heart pumping in the same
 way good old-fashioned cardio can. And I'm NOT talking about the 2 min walk to
