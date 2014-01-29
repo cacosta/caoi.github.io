@@ -1,13 +1,11 @@
 ---
 comments: true
-date: 2013-10-24 21:21:19+00:00
+date: '2013-10-24 21:21:19 UTC'
 layout: post
 permalink: hello-fall-cleanse-its-nice-to-meet-you
 title: Hello Fall Cleanse, It's Nice To Meet You!
-categories:
-- health
+categories: health
 ---
-
 ![Cleanse](http://corinaoffthemat.com/wp-content/uploads/2013/10/frameShareFile-300x300.jpg) Ah, the Fall Cleanse. What is it and what exactly are we "cleaning"? Why do this for the Fall? We have to drink a tonic of _WHAT_ every morning?! Side effects may include constipation, fatigue, and cravings?
 
 Those were just a few of the many questions posed on the first session that kicked-off a seven day cleanse  I decided to do with a [friend](http://yoga.maathiildee.com/) of mine this week. How does the saying go? Adventures are better with friends? Or was it misery loves company, I forget.
