@@ -42,6 +42,15 @@ prose:
           element: "text"
           label: "Permalink"
           alterable: true
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Category"
+          options:
+            - name: 'Granny Apples'
+              value: 'granny-apples'
+          alterable: true
+      - name: "author"
       - name: "author"
         field:
           element: "hidden"
