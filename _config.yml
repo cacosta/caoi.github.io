@@ -34,8 +34,9 @@ prose:
           type: "text"
       - name: "date"
         field:
-          element:
-          placeholder:: "2012-07-24 14:00:00 UTC"
+          element: "text"
+          label: "Date"
+          alterable: true
       - name: "author"
         field:
           element: "hidden"
@@ -46,6 +47,11 @@ prose:
           label: "Categories"
           placeholder: "Create or choose"
           alterable: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          alterable: true
       - name: "comments"
         field:
           element: hidden
@@ -53,7 +59,7 @@ prose:
           value: "true"
       - name: "tags"
         field:
-          element: "multiselect"
+          element: "hidden"
           label: "Tags"
           placeholder: "Choose Tags"
           alterable: true

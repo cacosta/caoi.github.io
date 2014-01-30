@@ -1,9 +1,9 @@
 ---
-comments: true
-date: 2013-02-21 21:19:57+00:00
 layout: post
+date: 2013-02-21 21:19:57+00:00
 permalink: yoga-stuff
 title: Yoga Stuff
+comments: true
 categories:
 - yoga
 ---
