@@ -1,0 +1,10 @@
+---
+---
+callback([
+{% for cat in site.categories reversed | sort: title %}
+  {
+    "name": "{{site.category | replace:'-',' '}}",
+    "value": "{{site.category}}"
+  } {% unless forloop.last %},{% endunless%}
+{% endfor %}
+])
