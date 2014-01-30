@@ -46,9 +46,8 @@ prose:
         field:
           element: "multiselect"
           label: "Add Category"
-          options: "links.jsonp"
+          options: "categories.jsonp"
           alterable: true
-      - name: "author"
       - name: "author"
         field:
           element: "hidden"
