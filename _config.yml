@@ -1,10 +1,55 @@
-name: Corina Acosta | Web Developer | Boston
+title: Corina Acosta | Web Developer | Boston
 author: Corina Acosta
+description: "Boston-based Web Developer, Teacher, Dancer turned Ashtangi, photograhper, dog lover, health food nut, and passionate about creating apps to promote social change."
 markdown: redcarpet
 port: 4000
 pygments: true
 permalink: /:categories/:year/:month/:day/:title 
 exclude: ["README.md", "sass", ".sass-cache"]
-url : http://iamca.github.io
+production_url : http://www.iamcorinaacosta.com
+rss_path: /rss.xml
 paginate: 5
 excerpt_separator: "\n\n"
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://www.iamcorinaacosta.com'
+  relativeLinks: 'http://www.iamcorinaacosta.com/links.jsonp'
+  media: 'media'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          type: "text"
+      - name: "author"
+        field:
+          element: "hidden"
+          value: "Corina Acosta"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Post Category"
+          placeholder: "Create or choose"
+          alterable: true
+      - name: "comments"
+        field:
+          element: checkbox
+          label: "Comments"
+          value: "true"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
