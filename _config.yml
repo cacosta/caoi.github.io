@@ -46,9 +46,7 @@ prose:
         field:
           element: "multiselect"
           label: "Add Category"
-          options:
-            - name: 'Granny Apples'
-              value: 'granny-apples'
+          options: "links.jsonp"
           alterable: true
       - name: "author"
       - name: "author"
