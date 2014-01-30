@@ -37,21 +37,15 @@ prose:
           element: "text"
           label: "Date"
           alterable: true
-      - name: "author"
-        field:
-          element: "hidden"
-          value: "Corina Acosta"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Categories"
-          placeholder: "Create or choose"
-          alterable: true
       - name: "permalink"
         field:
           element: "text"
           label: "Permalink"
           alterable: true
+      - name: "author"
+        field:
+          element: "hidden"
+          value: "Corina Acosta"
       - name: "comments"
         field:
           element: hidden
