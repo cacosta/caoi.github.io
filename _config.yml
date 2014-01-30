@@ -46,7 +46,7 @@ prose:
         field:
           element: "multiselect"
           label: "Add Category"
-          options: http://www.iamcorinaacosta.com/categories.jsonp
+          options: "http://www.iamcorinaacosta.com/categories.jsonp"
           alterable: true
       - name: "author"
         field:
