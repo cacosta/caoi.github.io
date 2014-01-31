@@ -8,8 +8,8 @@ exclude: ["README.md", "sass", ".sass-cache"]
 production_url : http://www.iamcorinaacosta.com
 rss_path: /rss.xml
 paginate: 5
+paginate_path: "/page:num"
 excerpt_separator: "\n\n"
-faiconsize: 3x
 prose:
   rooturl: '_posts'
   siteurl: 'http://www.iamcorinaacosta.com'

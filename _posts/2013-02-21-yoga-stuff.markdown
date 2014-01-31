@@ -41,7 +41,7 @@ attachment) _([The Yoga Sutras of Pantanjali](http://www.amazon.com/gp
 /product/1938477073/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&cr
 eativeASIN=1938477073&linkCode=as2&tag=fla002-20), 1.12-1.16)_. In
 other words, "practice is to put forth a persistent effort without
-attachment to the result".  When we own something, we feel attached to
+attachment to the result". When we own something, we feel attached to
 it. We identify ourselves with what we own to the point that if we
 lost it (result), we'll feel like we have lost a part of ourselves. If
 we treat Yoga as something we own, we may become attached to it. We
