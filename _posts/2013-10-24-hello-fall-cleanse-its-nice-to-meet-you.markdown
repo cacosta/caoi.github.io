@@ -12,8 +12,8 @@ categories:
 - health
 ---
 
-<span class="fa-stack fa-{{ page.iconsize }} pull-left"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-{{ page.icon[0] }} fa-stack-1x fa-inverse"></i></span> Ah, the Fall Cleanse. What is it and what exactly are we "cleaning"? Why do this for the Fall? We have to drink a tonic of _WHAT_ every morning?! Side effects may include constipation, fatigue, and cravings?
- 
+Ah, the Fall Cleanse. What is it and what exactly are we "cleaning"? Why do this for the Fall? We have to drink a tonic of _WHAT_ every morning?! Side effects may include constipation, fatigue, and cravings?
+
 
 Those were just a few of the many questions posed on the first session that kicked-off a seven day cleanse  I decided to do with a [friend](http://yoga.maathiildee.com/) of mine this week. How does the saying go? Adventures are better with friends? Or was it misery loves company, I forget.
 

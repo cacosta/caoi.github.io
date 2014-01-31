@@ -6,7 +6,6 @@ pygments: true
 permalink: /:categories/:year/:month/:day/:title 
 exclude: ["README.md", "sass", ".sass-cache"]
 production_url : http://www.iamcorinaacosta.com
-baseurl: /
 rss_path: /rss.xml
 paginate: 5
 excerpt_separator: "\n\n"
@@ -14,7 +13,6 @@ faiconsize: 3x
 prose:
   rooturl: '_posts'
   siteurl: 'http://www.iamcorinaacosta.com'
-  relativeLinks: 'http://www.iamcorinaacosta.com/links.jsonp'
   media: 'media'
   ignore:
     - index.md
@@ -48,16 +46,6 @@ prose:
           element: "multiselect"
           label: "Add Category"
           options: "http://www.iamcorinaacosta.com/categories.jsonp"
-          alterable: true
-      - name: "category-icon"
-        field:
-          element: "multiselect"
-          label: "Add Category Icon"
-          options:
-            - name: 'health'
-              value: 'user-md'
-            - name: 'food'
-              value: 'coffee'
           alterable: true
       - name: "author"
         field:
