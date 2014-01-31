@@ -48,6 +48,12 @@ prose:
           label: "Add Category"
           options: "http://www.iamcorinaacosta.com/categories.jsonp"
           alterable: true
+      - name: "cat-icon"
+        field:
+          element: "multiselect"
+          label: "Add Category Icon"
+          options: "http://www.iamcorinaacosta.com/category-icons.jsonp"
+          alterable: true
       - name: "author"
         field:
           element: "hidden"
