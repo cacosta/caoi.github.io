@@ -145,6 +145,9 @@ body {
       color: #00d1b1;
       text-decoration: none; }
 
+.fa-stack {
+  margin-top: -8px; }
+
 .navbar {
   padding: 8px 0; }
   .navbar .nav {
@@ -169,6 +172,8 @@ body {
   max-width: 30%;
   height: auto;
   padding: 0 15px 15px 0; }
+.post .fa-3x {
+  font-size: 7em; }
 
 footer {
   margin: 50px 0; }
