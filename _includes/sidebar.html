@@ -9,9 +9,9 @@
                 </button>
             </span>
         </div>
-        <!-- /input-group -->
     </div-->
     <!-- /well -->
+
     <div class="well">
         <h4>Blog Categories</h4>
         <div class="row">
@@ -27,13 +27,33 @@
         </div>
     </div>
     <!-- /well -->
+
     <div class="well">
         <div class="tweets-container">
             <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/iamcorinaacosta" data-widget-id="427845383172026369">Tweets by @iamcorinaacosta</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
-
-</div>
     </div>
     <!-- /well -->
+
+    <div class="well">
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="archiveMenu" data-toggle="dropdown">Archive <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="archiveMenu">
+            {% for post in site.posts %}
+                {% unless post.next %}
+                  <li><a href="/{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</a><li>
+                {% else %}
+                  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+                  {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+                  {% if year != nyear %}
+                    <li><a href="/{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</a><li>
+                  {% endif %}
+                {% endunless %}
+            {% endfor %}
+          </ul>
+        </div>
+    </div>
+    <!-- /well -->
+
 </div>

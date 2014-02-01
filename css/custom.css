@@ -183,5 +183,8 @@ body {
 .post .fa-3x {
   font-size: 7em; }
 
+.archive li {
+  font-size: 13px; }
+
 footer {
   margin: 50px 0; }
