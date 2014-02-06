@@ -5,8 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{site.title}} </title>
-    <meta name="description" content=""Boston-based Web Developer, Teacher, Dancer turned Ashtangi, photograhper, dog lover, health food nut, and passionate about creating apps to promote social change.">
-    <meta name="keywords" content="Web Developer, Boston, Teacher, Ashtangi, Dancer, Photographer, App Developer">
+    {% if page.description %}
+    <meta name="description" content="{{page.description}}" />
+    {% else %}
+    <meta name="description" content="{{site.description}}" />
+    {% endif %}
+    {% if page.categories %}
+    <meta name="keywords" content="{{page.categories | join: ','}}" />
+    {% else %}
+    <meta name="keywords" content="{{site.keywords | join: ','}}" />
+    {% endif %}
+    {% if page.date %}
+    <meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />
+    {% endif %}
+    <meta name="robots" content="{{page.index}}INDEX,{{page.follow}}FOLLOW" />
     <meta name="author" content="{{ site.author }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://iamca.github.io/favicon.png">
@@ -63,9 +75,9 @@
                             <li><a href="http://iamca.github.io/slides/gdi-intro-html-css/#/" target="_blank">GDI Intro to HTML/CSS</a></li>
                         </ul>
                     </li>
-                    <li><a href="archive.html">Archive</a></li>
+                    <li><a href="/archive/">Archive</a></li>
                     <li><a href="https://delicious.com/iamca/dev-share" target="_blank">Resources</a>
-                    <!--li><a href="mailto:#">Contact</a></li-->
+                    <li><a href="/contact/">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
