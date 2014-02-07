@@ -17,12 +17,54 @@ prose:
   siteurl: 'http://www.iamcorinaacosta.com'
   media: 'media'
   ignore:
-    - index.md
+    - index.html
     - _config.yml
     - /_layouts
     - /_includes
   metadata:
     _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          type: "text"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          alterable: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          alterable: true
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Category"
+          options: "http://www.iamcorinaacosta.com/categories.jsonp"
+          alterable: true
+      - name: "author"
+        field:
+          element: "hidden"
+          value: "Corina Acosta"
+      - name: "comments"
+        field:
+          element: hidden
+          label: "Comments"
+          value: "true"
+      - name: "tags"
+        field:
+          element: "hidden"
+          label: "Tags"
+          placeholder: "Choose Tags"
+          alterable: true
+    _drafts:
       - name: "layout"
         field:
           element: "hidden"
