@@ -8,11 +8,10 @@
 /*
 /*****************************************************************************/
 
-$logo-color: #f7a903;
-$ribbon-color: $logo-color;
+$base-color: #F0A993;
 $primary-text-color: #444;
-$primary-link-color: #01ad90;
-$primary-link-hover-color: #00d1b1;
+$primary-link-color: #ea3600;
+$primary-link-hover-color: $base-color;
 $light-text: #fff;
 $primary-font-family: Varela;
 
@@ -26,7 +25,7 @@ $primary-font-family: Varela;
 
 body{
   margin-top: 100px; 
-  font-family: $primary-font-family;
+  //font-family: $primary-font-family;
   font-size: 16px;
   color:$primary-text-color;
   a{
@@ -47,6 +46,14 @@ body{
   .nav{
     padding-top: 15px;
   }
+}
+
+.logo a {
+  background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=80&height=80") no-repeat top center;
+  text-indent: -9999px;
+  width: 80px;
+  height: 80px;
+  display: block;
 }
 
 #home .posts{
@@ -83,6 +90,3 @@ body{
 .archive{
     li{font-size:13px;}
  } 
-footer{
-  margin: 50px 0;
-}

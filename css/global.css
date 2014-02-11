@@ -1,5 +1,5 @@
 /*
-Syntax error: Undefined variable: "$ribbon-color".
+Syntax error: Undefined variable: "$base-color".
         on line 52 of sass/global.scss
 
 47: 
@@ -7,7 +7,7 @@ Syntax error: Undefined variable: "$ribbon-color".
 49:   display: block;
 50:   width: 225px;
 51:   font-size: 14px;
-52:   background-color: $ribbon-color;
+52:   background-color: $base-color;
 53:   color: $light-text;
 54:   word-spacing: 2px;
 55:   text-decoration: none;
@@ -61,4 +61,4 @@ sass/global.scss:52
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$ribbon-color\".\A         on line 52 of sass/global.scss\A \A 47: \A 48: #banner a{\A 49:   display: block;\A 50:   width: 225px;\A 51:   font-size: 14px;\A 52:   background-color: $ribbon-color;\A 53:   color: $light-text;\A 54:   word-spacing: 2px;\A 55:   text-decoration: none;\A 56:   padding: 5px 15px 5px 25px;\A 57:   "; }
+  content: "Syntax error: Undefined variable: \"$base-color\".\A         on line 52 of sass/global.scss\A \A 47: \A 48: #banner a{\A 49:   display: block;\A 50:   width: 225px;\A 51:   font-size: 14px;\A 52:   background-color: $base-color;\A 53:   color: $light-text;\A 54:   word-spacing: 2px;\A 55:   text-decoration: none;\A 56:   padding: 5px 15px 5px 25px;\A 57:   "; }
