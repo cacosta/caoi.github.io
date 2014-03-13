@@ -3,6 +3,7 @@ description: "Boston-based Web Developer, Teacher, Dancer turned Ashtangi, photo
 keywords: "Web Developer, Boston, Teacher, Ashtangi, Dancer, Photographer, App Developer"
 author: Corina Acosta
 markdown: redcarpet
+#extensions: [fenced_code_blocks]
 port: 4000
 pygments: true
 permalink: /:categories/:year/:month/:day/:title 

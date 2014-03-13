@@ -48,8 +48,8 @@
   display: block;
   width: 225px;
   font-size: 14px;
-  background-color: #f0a993;
-  color: white;
+  background-color: #333333;
+  color: #efefef;
   word-spacing: 2px;
   text-decoration: none;
   padding: 5px 15px 5px 25px;
@@ -75,29 +75,57 @@
 /*****************************************************************************/
 body {
   margin-top: 100px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px;
-  color: #444444; }
+  color: #333333; }
   body a {
-    color: #ea3600;
+    color: #333333;
     text-decoration: none; }
     body a:hover {
-      color: #f0a993;
+      color: #cc3333;
       text-decoration: none; }
+
+.logo a {
+  background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=110&height=110") no-repeat top center;
+  text-indent: -9999px;
+  width: 110px;
+  height: 110px;
+  display: block; }
 
 .fa-stack {
   margin-top: -8px; }
 
 .navbar {
+  border: none;
   padding: 8px 0; }
   .navbar .nav {
-    padding-top: 15px; }
+    padding-top: 25px;
+    font-size: 18px;
+    text-transform: uppercase; }
 
-.logo a {
-  background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=80&height=80") no-repeat top center;
-  text-indent: -9999px;
-  width: 80px;
-  height: 80px;
-  display: block; }
+.navbar-inverse {
+  background-color: #cc3333;
+  color: #efefef; }
+  .navbar-inverse .navbar-nav > li > a {
+    color: #efefef; }
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #333333; }
+  .navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #efefef;
+    border-bottom-color: #efefef; }
+  .navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+    border-top-color: #333333;
+    border-bottom-color: #333333; }
+
+.main {
+  padding-top: 50px; }
+
+#home .posts h2, #home .posts h3, .post h2, .post h3 {
+  margin-top: 0;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #cc3333; }
 
 #home .posts img {
   float: left;
@@ -107,7 +135,7 @@ body {
 #home .posts blockquote {
   visibility: hidden; }
 #home .posts li {
-  padding: 10px 0; }
+  padding-bottom: 10px; }
   #home .posts li:after {
     clear: both;
     content: "";
