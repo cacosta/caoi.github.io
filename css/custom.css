@@ -86,7 +86,8 @@ body {
       text-decoration: none; }
 
 .logo a {
-  background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=110&height=110") no-repeat top center;
+  /*background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=110&height=110") no-repeat top center;*/
+  background: url("../assets/ca-110x110.jpg") no-repeat top center;
   text-indent: -9999px;
   width: 110px;
   height: 110px;
