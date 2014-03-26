@@ -85,6 +85,12 @@ body {
       color: #720d0d;
       text-decoration: none; }
 
+.alarm {
+  color: #cc0000; }
+
+.glyphicon-time {
+  color: #4C2A2A; }
+
 .logo a {
   /*background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=110&height=110") no-repeat top center;*/
   background: url("../assets/ca-110x110.jpg") no-repeat top center;
