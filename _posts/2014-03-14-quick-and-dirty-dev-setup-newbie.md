@@ -10,11 +10,13 @@ categories:
 
 When you're new to coding the web, it can be overwhelming. There are so many tools, languages, plugins, frameworks, terminologies, resources, and documentation, it's easy to get overwhelmed. I know I certainly did.
 
-There are two setup guides that I often refer to when getting a computer **"code ready"**, they are: [Mac Dev Setup](https://github.com/nicolashery/mac-dev-setup) by Nicolas Hery and [Install How-to](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/) by Moncef Belyamani. Both provide an exhaustive list of everything you need to get up-and-running on any Apple MAC OSX system but the entire list can be very overwhelming for a someone new to coding and the majority of tools you won't need until you become a more experienced programmer.
+There are two setup guides that I often refer to when getting a computer **"code ready"**, they are: [Mac Dev Setup](https://github.com/nicolashery/mac-dev-setup) by Nicolas Hery and [Install How-to](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/) by Moncef Belyamani. Both resources provide an exhaustive list of everything you need to get code ready on any Apple MAC OSX system but they can be very overwhelming for a someone new to coding. The majority of tools listed you won't need if all you are trying to build is a basic website o app until you become a more experienced programmer.
 
-To help navigate these torrid installation waters as a newbie coder, I created a straightforward setup guide that walks you through everything you will need to get started coding for the web with basic HTML, CSS, and JavaScript. It is divided into two categories: *Basic Setup* and *Enhancements*. The [Basic Setup](#basic-setup) guides you through the essential tools, applications, and resources you will need to get coding right away. [Enhancements](#enhancements) are the "extras", plugins and configurations that I personally like to use to enhance my personal development workflow and make it more efficient.
+To help navigate these torrid installation waters as a newbie coder, I created a straightforward setup guide that walks you through everything you will need to get started coding basic websites and apps with HTML, CSS, and JavaScript. It is divided into two categories: *Basic Setup* and *Enhancements*. The [Basic Setup](#basic-setup) guides you through the essential tools, applications, and resources you will need to get coding right away. [Enhancements](#enhancements) are the "extras", plugins and configurations that I personally like to use to enhance my personal development workflow and make it more efficient.
 
-<i class="fa fa-exclamation-circle fa-lg alarm"></i> **Note**
+<i class="fa fa-exclamation-circle fa-lg alarm"></i> **Notes**
+
+*As part of the installation process, you will download various tools from the Internet. Make sure you are connected to the Internet before you begin.*
 
 *I suggest you complete the <strong>Homework</strong> section at the end of each installation step (indicated by the <i class="fa fa-coffee"></i> symbol) before proceeding to the next step as some of the knowledge gained is useful in understanding the the next installation process.*
 
@@ -32,14 +34,13 @@ Let's get started shall we?
 	
 <h3 id="enhancements">Enhancements</h3>
 
-- [iTerm2](#iterm2)
+- [iTerm](#iterm)
 
 ---
 
 <h3 id="system-update">System Update</h3>
 
-
-####<i class="fa fa-lightbulb-o fa-lg"></i> **Why?** ####
+#### <i class="fa fa-lightbulb-o fa-lg"></i> **Why?** ####
 
 Many of the tools you will install for coding and development are constantly being updated based on the latest operating system. To avoid a headache and broken installs down the road its a good idea to update your computer's operating system to the latest version any time you install something new to ensure a fresh and clean starting point. 
 
@@ -154,7 +155,7 @@ Our main concern for installing Homebrew as part of this guide is because it mak
 
 <i class="fa fa-exclamation-circle fa-lg alarm"></i> ***Note***: *If you are running <strong>OS X 10.9 Mavericks</strong>, then you can install the Xcode Command Line Tools directly from the command line by running `$ xcode-select --install` in Terminal, in which case you can skip Step 1 and you won't have to go through the download page and the questionnaire. Otherwise, if you are running OS X 10.8 Mountain Lion then you will need to complete the first step*
 
-Homebrew requires **Command Line Tools** to be installed which is available through Apple's **Xcode** suite and can be installed independently as follows:
+Homebrew requires **Command Line Tools** which is available as part of **Xcode**, a free developer toolbox provided by Apple, but rather than download the entire Xcode suite which is quite large, we can download the Command Line Tools independently from the Apple Developer site:
 
 - Visit <http://developer.apple.com/downloads>
 - Sign in with your Apple ID (the same one you use for iTunes and app purchases)
@@ -195,10 +196,23 @@ Since this post serves only as beginner's installation guide, I have provided us
 
 #### <i class="fa fa-download fa-lg"></i> **How?** ####
 
-1. Create an account on Github.com:
-	- Visit <https://github.com/>
-	- Fill out the sign-up form and hit the **Sign up for Github** button. You are now part of the Github community!
-2. Install Git on your machine. There are a few different ways to do this but now that we have Homebrew installed its easy!
+First, create an account on Github.com:
+
+- Visit <https://github.com/>
+- Fill out the sign-up form and hit the **Sign up for Github** button. You are now part of the Github community!
+
+Next, install Git on your machine. There are a few different ways you can do this but now that we have Homebrew installed its easy!
+
+Run the following:
+
+`$ brew install git`
+
+After the installation completes, test that it is installed by running the following command:
+
+`$ git --version`
+
+which should return the latest version of Git that you installed (e.g `git version 1.9.1`). If you would like to know what the latest version is, visit [git-scm.com](http://git-scm.com/downloads).
+
 
 #### <i class="fa fa-coffee fa-lg"></i> **Homework** ####
 
@@ -210,11 +224,16 @@ To learn how to add your code to Git and push it to Github.com, complete the fol
 #### <i class="fa fa-globe fa-lg"></i> **Additional Resources** ####
 	
 * [Pro Git](http://git-scm.com/book)
+* [Git Ref](http://gitref.org/)
 * [Github Resource List](https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github)
 
 <h3 id="hosting">Hosting Server</h3>
 
 #### <i class="fa fa-lightbulb-o fa-lg"></i> **Why?** ####
+
+What good is a website or app if it doesn't exist on the Internet so people can access it?
+
+Generally, when you develop a website or an app, you code it **locally** first on your private computer system. Once your website or app is ready for its big debut, it must be uploaded from your computer to the Internet so that it can be made public. This is normally called a **release** to **production**.
 
 #### <i class="fa fa-download fa-lg"></i> **How?** ####
 
@@ -224,7 +243,7 @@ To learn how to add your code to Git and push it to Github.com, complete the fol
 
 ---
 
-<h3 id="iterm">iTerm</h3>
+<h3 id="iterm">iTerm</h3>])
 
 #### <i class="fa fa-lightbulb-o fa-lg"></i> **Why?** ####
 
