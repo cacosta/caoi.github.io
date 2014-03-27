@@ -127,13 +127,13 @@ body {
 .main {
   padding-top: 50px; }
 
-#home .posts h2, #home .posts h3, .post h2, .post h3 {
+#home .posts h2, .post h2 {
   margin-top: 0;
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-style: italic; }
 
-#home .posts img {
+#home .posts img.thumb {
   float: left;
   max-width: 20%;
   height: auto;
@@ -147,7 +147,7 @@ body {
     content: "";
     display: block; }
 
-.post img {
+.post img.thumb {
   float: left;
   max-width: 30%;
   height: auto;
