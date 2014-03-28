@@ -227,23 +227,25 @@ To learn how to add your code to Git and push it to Github.com, complete the fol
 * [Git Ref](http://gitref.org/)
 * [Github Resource List](https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github)
 
-<h3 id="hosting">Hosting Server</h3>
+<h3 id="hosting">Hosting</h3>
 
 #### <i class="fa fa-lightbulb-o fa-lg"></i> **Why?** ####
 
 What good is a website or app if it doesn't exist on the Internet so people can access it?
 
-Generally, when you develop a website or an app, you code it **locally** first on your private computer system. Once your website or app is ready for its big debut, it must be uploaded from your computer to the Internet so that it can be made public. This is normally called a **release** to **production**.
+Generally, when you develop a website or an app, you code it **locally** first on your private computer system. Once your website or app is ready for its big debut, it must be uploaded from your computer to a remote server tapped into the Internet so that it can be made public. This is normally called a **release** to **production**.
 
 #### <i class="fa fa-download fa-lg"></i> **How?** ####
 
-#### <i class="fa fa-coffee fa-lg"></i> **Homework** ####
+There are many options for hosting depending on the type and size of your project.Generally, you will need to purhcase a domain name (the address to where your project will live) and a hosting service (the server that will house the code and where your domain name will point to). 
 
-#### <i class="fa fa-globe fa-lg"></i> **Additional Resources** ####
+If you are creating a simple website, I personally have utilized [Github Pages](http://pages.github.com/) since its free and I can push my code directly to my Github account to release it to production.
+
+For Domain purchases, I have found [GoDaddy](http://www.godaddy.com/) or [Namecheap](https://www.namecheap.com) to offer the best deal and customer service. Both of these providers can be also used to host your website for an additional price if you choose not to use Github Pages. Check out the tutorials on the sites for these hosting/domain providers to learn how to push your code up to their servers and point your domain once your code is ready to launch.
 
 ---
 
-<h3 id="iterm">iTerm</h3>])
+<h3 id="iterm">iTerm</h3>
 
 #### <i class="fa fa-lightbulb-o fa-lg"></i> **Why?** ####
 
