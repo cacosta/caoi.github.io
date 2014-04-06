@@ -12,6 +12,16 @@
   width: 100%;
   min-height: 28px;
 }
+.scrollup {
+    background: url("../assets/icon_gototop.png") no-repeat scroll 0 0 transparent;
+    bottom: 20px;
+    display: none;
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    text-indent: -9999px;
+    width: 40px;
+}
 
 /*****************************************************************************/
 /*
