@@ -243,7 +243,7 @@ The default terminal application is perfectly fine to use but it's a little bori
 - Once the file has finished downloading, open the file and drag and drop the **iTerm2** app icon into the **Applications** folder
 - Open a **Finder** window and under **Devices** click on the the small "eject" icon next to the iTerm2 install disk image to unmount it.
 
-<h3 id="iterm"><i class="fa fa-check fa-lg"></i> Pretty Terminal</h3>
+<h3 id="pretty-terminal"><i class="fa fa-check fa-lg"></i> Pretty Terminal</h3>
 #### <i class="fa fa-lightbulb-o"></i> **Why?** 
 As coders, we spend a lot of time in the terminal, so why not make it a more colorful and enjoyable place to be?
 
