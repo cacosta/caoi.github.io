@@ -8,14 +8,14 @@ port: 4000
 pygments: true
 permalink: /:categories/:year/:month/:day/:title 
 exclude: ["README.md", "sass", ".sass-cache"]
-production_url : http://www.iamcorinaacosta.com
+production_url : http://www.codelala.com
 rss_path: /rss.xml
 paginate: 5
 paginate_path: "/page:num"
 excerpt_separator: "\n\n"
 prose:
   rooturl: '_posts'
-  siteurl: 'http://www.iamcorinaacosta.com'
+  siteurl: 'http://www.codelala.com'
   media: 'media'
   ignore:
     - index.html
@@ -48,7 +48,7 @@ prose:
         field:
           element: "multiselect"
           label: "Add Category"
-          options: "http://www.iamcorinaacosta.com/categories.jsonp"
+          options: "http://www.codelala.com/categories.jsonp"
           alterable: true
       - name: "author"
         field:
@@ -90,7 +90,7 @@ prose:
         field:
           element: "multiselect"
           label: "Add Category"
-          options: "http://www.iamcorinaacosta.com/categories.jsonp"
+          options: "http://www.codelala.com/categories.jsonp"
           alterable: true
       - name: "author"
         field:
