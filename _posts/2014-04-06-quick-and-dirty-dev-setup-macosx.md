@@ -5,7 +5,8 @@ permalink: quick-and-dirty-dev-setup-macosx
 title: "Quick &amp; Dirty Installation Guide for the Newbie Coder: Mac OS X"
 comments: true
 categories:
-- code
+- coding
+- tutorials
 ---
 
 When you're new to coding the web, it can be overwhelming. There are so many tools, languages, plugins, frameworks, terminologies, resources, and documentation, it's easy to get overwhelmed. I know I certainly did.
