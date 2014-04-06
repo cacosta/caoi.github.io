@@ -1,5 +1,4 @@
 _site
-!_site/categories/
 _drafts
 .sass-cache
 .DS_Store
