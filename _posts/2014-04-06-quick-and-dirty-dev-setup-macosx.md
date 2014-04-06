@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2014-03-14 20:08:14+00:00
-permalink: quick-and-dirty-dev-setup-newbie
+date: 2014-04-06 20:08:14+00:00
+permalink: quick-and-dirty-dev-setup-macosx
 title: "Quick &amp; Dirty Installation Guide for the Newbie Coder: Mac OS X"
 comments: true
 categories:
