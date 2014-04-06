@@ -4,7 +4,7 @@ require 'fileutils'
 @target = "./categories"  
 @includePattern = "/**/*.html"  
   
-task :default => [:copyDirectory]  
+task :default => [:copyDir]  
   
 task :copyDir do  
     FileUtils.rm_rf(@target)  #remove target directory (if exists)  
