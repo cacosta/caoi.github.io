@@ -5,7 +5,6 @@ permalink: easy-screensaver-shortcut
 title: "Keep Your Computer Secure: Easy Screen Saver Shortcuts"
 comments: true
 categories:
-- macosx
 - tutorials
 ---
 
