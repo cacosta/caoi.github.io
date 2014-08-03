@@ -53,7 +53,7 @@ Here's how I like to access my locked screen saver quickly and efficiently:
 5. In the application menubar under **File**, select **Save** and give your new Service a name, something like "Start Screen Saver". Once your service is saved, close out of the Automator application.
 6. Click on the <i class="fa fa-apple"></i> symbol in the upper left corner of you computer screen and select *System Preferences* from the drop down menu.
 7. Select the **Keyboard** icon located in the **Hardware** section. 
-8. Click on the **Services** gear icon in the left menu box, then in the right menu box scroll down towards the end until you get to the **General** category. You should see an option for the new service you created. Enable it by checking the box and then double-click to the right of the option to add/record a shortcut. I liked to use **&#8984;S** since its easy to remember and does not conflict with any other shortcuts when you are accessing system features.
+8. Click on the **Services** gear icon in the left menu box, then in the right menu box scroll down towards the end until you get to the **General** category. You should see an option for the new service you created. Enable it by checking the box and then double-click to the right of the option to add/record a shortcut. I liked to use **&#94;&#8984;S** since its easy to remember and does not conflict with any other shortcuts when you are accessing system features.
   ![System Preferences - Keyboard Shortcuts](/assets/macosx-sys-pref-keyboard-shortcuts.png "System Preferences - Keyboard Shortcuts")
 
 Voíla! Now you should be able to access your locked screen saver by using your shortcut key.
