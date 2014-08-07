@@ -80,11 +80,5 @@ Voíla! Now you should be able to access your locked screen saver by using your 
   ![Menubar Lock Icon](/assets/menubar-lock-icon.png "Menubar Lock Icon")
 
 There you have it. Easy Access to your screen saver, locked and secure. Happy computing!
-  
-
-
-
-
-
 
 <a class="scrollup" href="#">Scroll</a>
