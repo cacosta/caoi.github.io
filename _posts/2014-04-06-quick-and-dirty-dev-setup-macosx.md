@@ -126,7 +126,7 @@ Guess what? Your computer already comes pre-installed with a terminal applicatio
 - Clck on **Terminal.app** to launch the application
 - You should see a new window that looks a little something like this but with your system name instead of "cacosta" which is the name of my system:
 
-	![Terminal](/assets/terminal.jpg "Terminal")
+	![Terminal](/assets/posts/terminal.jpg "Terminal")
 	
 Leave the Terminal window open for use later in this guide.
 

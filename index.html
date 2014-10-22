@@ -2,43 +2,158 @@
 layout: default
 title: Home
 ---
-<div class="row">
-  <div id="home">
-    <ul class="posts list-unstyled">
-      {% for post in paginator.posts %}
-        <li>
-          <!--h3><span class="timestamp">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></h3-->
-          <h3><span class="timestamp">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></h3>
-          {{ post.excerpt }}
-          <a href="{{ post.url }}" class="pull-right">//Read More</a>
-        </li>
-      {% endfor %}
-    </ul>
-    <!-- Pagination links -->
-    {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-      {% else %}
-        <span>&laquo; Prev</span>
-      {% endif %}
+<!-- Header -->
+<div class="intro-header">
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <em>{{ page }}</em>
-        {% elsif page == 1 %}
-          <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-        {% else %}
-          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        {% endif %}
-      {% endfor %}
+    <div class="container">
 
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-      {% else %}
-        <span>Next &raquo;</span>
-      {% endif %}
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1>Front End Web Developer</h1>
+                    <h3>( technology gets me hyped )</h3>
+                    <hr class="intro-divider">
+                    <ul class="list-inline intro-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/codelala" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/codelala" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/corinaacosta/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
-    {% endif %}
-  </div>
+    <!-- /.container -->
+
 </div>
+<!-- /.intro-header -->
+<!-- Page Content -->
+
+    <div id="posts" class="content-section-a">
+
+        <div class="container">
+
+          <div class="row">
+              <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+                  <h2 class="section-heading">Latest Articles</h2>
+                <div id="home">
+                  <ul class="posts list-unstyled">
+                    {% for post in paginator.posts %}
+                      <li>
+                        <h4><span class="timestamp">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></h4>
+                        <!--{{ post.excerpt }}-->
+                        <!--a href="{{ post.url }}" class="pull-right">//Read More</a-->
+                      </li>
+                    {% endfor %}
+                  </ul>
+                  <!-- Pagination links -->
+                  {% if paginator.total_pages > 1 %}
+                  <div class="pagination">
+                    {% if paginator.previous_page %}
+                      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+                    {% else %}
+                      <span>&laquo; Prev</span>
+                    {% endif %}
+
+                    {% for page in (1..paginator.total_pages) %}
+                      {% if page == paginator.page %}
+                        <em>{{ page }}</em>
+                      {% elsif page == 1 %}
+                        <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+                      {% else %}
+                        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                      {% endif %}
+                    {% endfor %}
+
+                    {% if paginator.next_page %}
+                      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+                    {% else %}
+                      <span>Next &raquo;</span>
+                    {% endif %}
+                  </div>
+                  {% endif %}
+                </div><!-- end of /#home -->
+              </div>
+              <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                  <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                      <span class="fa-stack thumb-icon">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-files-o fa-stack-1x fa-inverse"></i>
+                      </span>
+                  </div>
+              </div>
+          </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div id="about" class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="img-wrapper"><img class="img-responsive pull-left" src="assets/headshot.jpg" alt="Headshot of Mikio Aoi"></div>
+                    <h2 class="section-heading">About Me</h2>
+                    <p class="lead">Corina Acosta loved to code the minute she made a turtle move across the screen with GOTO statements in the 7th grade. Without any female role models to encourage her to focus on computers, her love of code remained dormant while she went on to pursue a professional career in Dance and Musical Theater. She eventually returned to her love of Technology and pursued a B.S. in Computer Science in 2003. She has since developed a career in Web Development spanning over 10 years and is currently part of an innovative team at Berklee Online, the extension school for Berklee College of Music. Corina has a desire to inspire and encourage other women to pursue technology with the hope of closing the gender gap that exists in STEM occupations and education. She’s excited to be both a Teacher and Board Member at Girl Develop It, encouraging women of all backgrounds to learn technology one line of code at a time.</p>
+                </div>
+                <!--div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/headshot.jpg" alt="Headshot of Mikio Aoi">
+                </div-->
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div id="contact" class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Need to send me a message?</h2>
+                    <p class="lead">Fill out the form to the right and hit <strong>Submit!</strong></p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                  <div id="wufoo-z1f6eh4r1g76x8p">
+                    Fill out my <a href="https://codelala.wufoo.com/forms/z1f6eh4r1g76x8p">online form</a>.
+                  </div>    
+                  <script type="text/javascript">var z1f6eh4r1g76x8p;(function(d, t) {
+                  var s = d.createElement(t), options = {
+                  'userName':'codelala', 
+                  'formHash':'z1f6eh4r1g76x8p', 
+                  'autoResize':true,
+                  'height':'517',
+                  'async':true,
+                  'host':'wufoo.com',
+                  'header':'show', 
+                  'ssl':true};
+                  s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+                  s.onload = s.onreadystatechange = function() {
+                  var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                  try { z1f6eh4r1g76x8p = new WufooForm();z1f6eh4r1g76x8p.initialize(options);z1f6eh4r1g76x8p.display(); } catch (e) {}};
+                  var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                  })(document, 'script');</script>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->

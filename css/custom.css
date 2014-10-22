@@ -87,54 +87,32 @@
     text-decoration: none; }
     body a:hover {
       color: #720d0d;
-      text-decoration: none; }
+      text-decoration: none; }*/
 
 .alarm {
   color: #cc0000; }
 
 .glyphicon-time {
-  color: #4C2A2A; }
+  color: #428bca; }
 
-.fa {
-  color: #cc3333; }
+.fa {}
 
 .fa-stack {
-  margin-top: -8px; }
+  margin-top: -8px;
+    color: #cc3333; 
+}
 
-.logo a {
+/*.logo a {
   background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=110&height=110") no-repeat center center;
   text-indent: -9999px;
   width: 100px;
   height: 100px;
-  display: block; }
-
-.navbar {
-  border: none;
-  padding: 8px 0; }
-  .navbar .nav {
-    padding-top: 25px;
-    font-size: 18px;
-    text-transform: uppercase; }
-  .navbar .container {
-    padding-left: 0;
-    padding-right: 0; }
-
-.navbar-inverse {
-  background-color: #cc3333;
-  color: #efefef; }
-  .navbar-inverse .navbar-nav > li > a {
-    color: #efefef; }
-  .navbar-inverse .navbar-nav > li > a:hover {
-    color: #666666; }
-  .navbar-inverse .navbar-nav > .dropdown > a .caret {
-    border-top-color: #efefef;
-    border-bottom-color: #efefef; }
-  .navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
-    border-top-color: #666666;
-    border-bottom-color: #666666; }
+  display: block; }*/
 
 .main {
-  padding-top: 50px; }
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
 
 #home .posts h2, .post h2 {
   margin-top: 0;
@@ -154,6 +132,9 @@
     content: "";
     display: block; }
 
+.post {
+  color: #555;
+}
 .post h3 {
   margin-bottom: 20px; }
 .post img.thumb {
@@ -169,7 +150,7 @@
   font-size: 7em; }
 
 .archive li {
-  font-size: 13px; }*/
+  font-size: 13px; }
 
 /*!
  * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
@@ -204,7 +185,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../assets/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -218,6 +199,7 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+    color: rgb(255, 107, 61);
 }
 
 .intro-divider {
@@ -285,7 +267,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../assets/banner-bg.jpg) no-repeat center center;
+    background: url(../assets/banner-bg.jpg) no-repeat bottom center;
     background-size: cover;
 }
 
@@ -293,6 +275,7 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
+    color: rgb(255, 107, 61);
 }
 
 .banner ul {

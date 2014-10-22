@@ -19,5 +19,3 @@ task :copyDir do
         FileUtils.cp_r(file, targetLocation)  
     end
 end
-
-`sass "config/platforms/#{platform}/style.css" "style.css"`

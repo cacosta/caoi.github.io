@@ -7,7 +7,7 @@ extensions: [fenced_code_blocks]
 port: 4000
 pygments: true
 permalink: /:categories/:year/:month/:day/:title 
-exclude: ["README.md", "sass", ".sass-cache"]
+exclude: ["README.md"]
 production_url : http://www.codelala.com
 rss_path: /rss.xml
 paginate: 5

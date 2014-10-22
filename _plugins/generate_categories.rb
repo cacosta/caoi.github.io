@@ -16,7 +16,7 @@
 #
 # ================================== COPY BELOW THIS LINE ==================================
 # ---
-# layout: default
+# layout: category_default
 # ---
 #
 # <h1 class="category">{{ page.title }}</h1>

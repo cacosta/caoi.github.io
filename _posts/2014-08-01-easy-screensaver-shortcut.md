@@ -20,33 +20,33 @@ Let's take a look at a couple of ways you can access your locked screen saver qu
 
 #### <i class="fa fa-download"></i> **How?**
 * Click on the <i class="fa fa-apple"></i> symbol in the upper left corner of you computer screen and select *System Preferences* from the drop down menu.
-![System Preferences](/assets/macosx-sys-pref.png "System Preferences")
+![System Preferences](/assets/posts/macosx-sys-pref.png "System Preferences")
 
 * Select the *Security & Privacy* icon under the *Personal* section of System Preferences.
-![Security & Privacy](/assets/macosx-sys-pref-security.png "Security & Privacy")
+![Security & Privacy](/assets/posts/macosx-sys-pref-security.png "Security & Privacy")
 
-* Make sure "Require password *immediately* after sleep or screen saver begins" is checked.![Require password](/assets/macosx-sys-pref-security-screensaver-lock.png "Require Password")
+* Make sure "Require password *immediately* after sleep or screen saver begins" is checked.![Require password](/assets/posts/macosx-sys-pref-security-screensaver-lock.png "Require Password")
 
 ###<i class="fa fa-check fa-lg"></i> Next, create an easy shortcut to start your Sreen Saver
 
 #### <i class="fa fa-download"></i> **How?**
 * Open the **Automator** application located inside the **Applications** folder
-![Automator App - Service](/assets/app-automator.png "Automator App - Service")
+![Automator App - Service](/assets/posts/app-automator.png "Automator App - Service")
 
 * Choose the **Service** icon
-![Automator App - Service](/assets/app-automator-service.png "Automator App - Service")
+![Automator App - Service](/assets/posts/app-automator-service.png "Automator App - Service")
 
 * In the search bar located in the upper left of the application, type in a search for *Start Screen Saver*. Click on the **Start Screen Saver** option once it shows up in the results list just below it.
-![Automator App - Search](/assets/app-automator-search.png "Automator App - Search")
+![Automator App - Search](/assets/posts/app-automator-search.png "Automator App - Search")
 
 * Drag the *Start Screen Saver* option over to the larger window to the right. This will add it as a property of the automated service you are creating. Make sure the service drop-down selections are exactly as you see them in this example.
-![Automator App - Drag](/assets/app-automator-drag.png "Automator App - Drag")
+![Automator App - Drag](/assets/posts/app-automator-drag.png "Automator App - Drag")
 
 * In the application menubar under **File**, select **Save** and give your new Service a name, something like "Start Screen Saver". Once your service is saved, close out of the Automator application.
 * Click on the <i class="fa fa-apple"></i> symbol in the upper left corner of you computer screen and select *System Preferences* from the drop down menu.
 * Select the **Keyboard** icon located in the **Hardware** section. 
 * Click on the **Services** gear icon in the left menu box, then in the right menu box scroll down towards the end until you get to the **General** category. You should see an option for the new service you created. Enable it by checking the box and then double-click to the right of the option to add/record a shortcut. I liked to use **&#94;&#8984;S** since its easy to remember and does not conflict with any other shortcuts when you are accessing system features.
-![System Preferences - Keyboard Shortcuts](/assets/macosx-sys-pref-keyboard-shortcuts.png "System Preferences - Keyboard Shortcuts")
+![System Preferences - Keyboard Shortcuts](/assets/posts/macosx-sys-pref-keyboard-shortcuts.png "System Preferences - Keyboard Shortcuts")
 
 Voíla! Now you should be able to access your locked screen saver by using your shortcut key.
 
@@ -56,16 +56,16 @@ Voíla! Now you should be able to access your locked screen saver by using your 
 #### <i class="fa fa-download"></i> **How?**
 
 * Open the **Keychain Access.app** located in **Aplications** <i class="fa fa-arrow-right"></i> **Utilities**
-![Kechain Access](/assets/app-keychain-access.png "Keychain Access")
+![Kechain Access](/assets/posts/app-keychain-access.png "Keychain Access")
 
 * In the top menubar, under **Keychain Access** drop down, select **Preferences**.
-![Kechain Access - Preferences](/assets/app-keychain-access-pref.png "Keychain Access - Preferences")
+![Kechain Access - Preferences](/assets/posts/app-keychain-access-pref.png "Keychain Access - Preferences")
 
 * Enable the option **show keychain status in menubar** and close this window. Close out of the Keychain Access app.
-![Kechain Access - Enable](/assets/app-keychain-access-enable.png "Keychain Access - Enable")
+![Kechain Access - Enable](/assets/posts/app-keychain-access-enable.png "Keychain Access - Enable")
 
 * Now you should see a lock icon in your top menubar. Click on this icon and it should activate your locked screen saver.
-![Menubar Lock Icon](/assets/menubar-lock-icon.png "Menubar Lock Icon")
+![Menubar Lock Icon](/assets/posts/menubar-lock-icon.png "Menubar Lock Icon")
 
 There you have it. Easy Access to your screen saver, locked and secure. Happy computing!
 
