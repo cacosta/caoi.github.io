@@ -74,7 +74,6 @@ GEM
     rdiscount (2.1.7)
     redcarpet (2.3.0)
     safe_yaml (0.9.7)
-    sass (3.3.2)
     sinatra (1.4.4)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -104,4 +103,3 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   pagoda-jekyll
-  sass
