@@ -1,15 +1,11 @@
 /*****************************************************************************/
-/*
 /* Custom Site Specific CSS
 /* Author: Corina Acosta
 /* Inherits Bootstrap CSS
-/*
 /*****************************************************************************/
 
 /*****************************************************************************/
-/*
 /* Global CSS
-/*
 /*****************************************************************************/
 .center {
   text-align: center; }
@@ -20,7 +16,7 @@
   min-height: 28px; }
 
 .scrollup {
-  background: url("../assets/icon_gototop.png") no-repeat scroll 0 0 transparent;
+  background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
   bottom: 20px;
   display: none;
   height: 40px;
@@ -41,14 +37,14 @@
   border: 0;
   z-index: 9999; }
 
-#banner {
+#github-banner #inner {
   height: 149px;
   width: 149px;
   overflow: hidden;
   padding: 0;
   margin: 0; }
 
-#banner a {
+#github-banner #inner a {
   display: block;
   width: 225px;
   font-size: 14px;
@@ -72,96 +68,28 @@
   -o-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/*****************************************************************************/
 /*
-/* Main Styles
-/*
-/*****************************************************************************/
-/*body {
-  margin-top: 100px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 16px;
-  color: #666666; }
-  body a {
-    color: #cc3333;
-    text-decoration: none; }
-    body a:hover {
-      color: #720d0d;
-      text-decoration: none; }*/
-
-.alarm {
-  color: #cc0000; }
-
-.glyphicon-time {
-  color: #428bca; }
-
-.fa {}
-
-.fa-stack {
-  margin-top: -8px;
-    color: #cc3333; 
-}
-
-/*.logo a {
+.logo a {
   background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=110&height=110") no-repeat center center;
   text-indent: -9999px;
   width: 100px;
   height: 100px;
-  display: block; }*/
-
-.main {
-  margin-top: 80px;
-  margin-bottom: 50px;
-}
-
-#home .posts h2, .post h2 {
-  margin-top: 0;
-  font-weight: 700; }
-
-#home .posts img.thumb {
-  float: left;
-  max-width: 20%;
-  height: auto;
-  margin-right: 15px; }
-#home .posts blockquote {
-  visibility: hidden; }
-#home .posts li {
-  padding-bottom: 10px; }
-  #home .posts li:after {
-    clear: both;
-    content: "";
-    display: block; }
-
-.post {
-  color: #555;
-}
-.post h3 {
-  margin-bottom: 20px; }
-.post img.thumb {
-  float: left;
-  max-width: 30%;
-  height: auto;
-  padding: 0 15px 15px 0; }
-.post img {
   display: block;
-  padding: 10px 0;
-  max-width: 100%; }
-.post .fa-3x {
-  font-size: 7em; }
+}
+*/
 
-.archive li {
-  font-size: 13px; }
+
 
 /*!
  * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
 body,
 html {
     width: 100%;
     height: 100%;
+    font-size: 16px;
 }
 
 body,
@@ -174,8 +102,13 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
-.lead {
+a{
+  color: #A400C1;
+}
+a:hover{
+  color: #5A006A;
+}
+p {
     font-size: 18px;
     font-weight: 400;
 }
@@ -185,21 +118,21 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../assets/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(../img/ca_web.png) no-repeat top right;
+    background-size: contain;
+    background-color: #FDAB00;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
-    color: rgb(255, 107, 61);
+    font-size: 3em;
+    color: rgb(255, 255, 255);
 }
 
 .intro-divider {
@@ -208,8 +141,8 @@ h6 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+.intro-social-buttons{
+  margin-top: 20px;
 }
 
 @media(max-width:767px) {
@@ -267,7 +200,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../assets/banner-bg.jpg) no-repeat bottom center;
+    background: url(../img/banner-bg.jpg) no-repeat bottom center;
     background-size: cover;
 }
 
@@ -275,7 +208,7 @@ h6 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 3em;
-    color: rgb(255, 107, 61);
+    color: rgb(255, 255, 255);
 }
 
 .banner ul {
@@ -294,6 +227,61 @@ h6 {
     }
 }
 
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+/* CSS Added to theme */
+#about img{
+  width: 100%;
+  max-width: 370px;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  box-shadow: 10px 10px 5px #ccc;
+}
+#contact #foxyform_embed_link_601186{
+    display: none !important;
+}
+.post {
+  color: #555;
+}
+.post h3 {
+  margin-bottom: 20px;
+}
+.post img.thumb {
+  float: left;
+  max-width: 30%;
+  height: auto;
+  padding: 0 15px 15px 0;
+}
+.post .meta{
+  margin-bottom: 20px;
+}
+.post p{
+  margin-bottom: 15px;
+}
+.post img {
+  display: block;
+  padding: 10px 0;
+  max-width: 100%;
+}
+.post .fa-3x {
+  font-size: 7em;
+}
+.post a {
+  color: #cc3333;
+  text-decoration: none;
+}
+.post a:hover {
+  color: #720d0d;
+  text-decoration: none;
+}
+.post .fa, .glyphicon-time {
+  color: #cc0000;
+}
+/* End of CSS Added to theme */
+
 @media(max-width:767px) {
     .banner h2 {
         margin: 0;
@@ -310,31 +298,13 @@ h6 {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+    .copyright{
+      text-align: left;
+    }
 }
 
-footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
-/*p.copyright {
-    margin: 15px 0 0;
-}*/
-
-
-/* CSS Added to theme */
-.img-wrapper{
-    max-width: 370px;
-}
-.img-wrapper img{
-    margin-right: 2em;
-    margin-bottom: 2em;
-     box-shadow: 10px 10px 5px #ccc;
-}
-.thumb-icon {
-    font-size: 12em;
-    color: #222;
-}
-#contact #foxyform_embed_link_601186{
-    display: none !important;
+@media(max-width: 480px){
+  .banner{padding: 40px 0;}
+  .banner h2 {font-size: 2em;}
+  .intro-header{color: #000;background-image: none;}
 }
