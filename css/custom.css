@@ -1,85 +1,3 @@
-/*****************************************************************************/
-/* Custom Site Specific CSS
-/* Author: Corina Acosta
-/* Inherits Bootstrap CSS
-/*****************************************************************************/
-
-/*****************************************************************************/
-/* Global CSS
-/*****************************************************************************/
-.center {
-  text-align: center; }
-
-.block-level {
-  display: block;
-  width: 100%;
-  min-height: 28px; }
-
-.scrollup {
-  background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
-  bottom: 20px;
-  display: none;
-  height: 40px;
-  position: fixed;
-  right: 20px;
-  text-indent: -9999px;
-  width: 40px; }
-
-/*****************************************************************************/
-/*
-/* Github Banner
-/*
-/*****************************************************************************/
-#github-banner {
-  position: fixed;
-  top: 0;
-  right: 0;
-  border: 0;
-  z-index: 9999; }
-
-#github-banner #inner {
-  height: 149px;
-  width: 149px;
-  overflow: hidden;
-  padding: 0;
-  margin: 0; }
-
-#github-banner #inner a {
-  display: block;
-  width: 225px;
-  font-size: 14px;
-  background-color: #333;
-  color: #efefef;
-  word-spacing: 2px;
-  text-decoration: none;
-  padding: 5px 15px 5px 25px;
-  position: relative;
-  left: 20px;
-  top: -37px;
-  text-align: center;
-  -webkit-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  -o-transform-origin: 0 0;
-  transform-origin: 0 0;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg); }
-
-/*
-.logo a {
-  background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=110&height=110") no-repeat center center;
-  text-indent: -9999px;
-  width: 100px;
-  height: 100px;
-  display: block;
-}
-*/
-
-
-
 /*!
  * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -109,8 +27,7 @@ a:hover{
   color: #5A006A;
 }
 p {
-    font-size: 18px;
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .intro-header {
@@ -187,10 +104,6 @@ p {
     border-bottom: 1px solid #e7e7e7;
 }
 
-.section-heading {
-    margin-bottom: 30px;
-}
-
 .section-heading-spacer {
     float: left;
     width: 200px;
@@ -232,7 +145,35 @@ footer {
     background-color: #f8f8f8;
 }
 
-/* CSS Added to theme */
+/*!
+ * 
+ * Custom CSS Added to Theme by Corina Acosta
+ *
+ */
+.top{
+  padding-top:0;
+}
+.center {
+  text-align: center; }
+
+.block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px; }
+
+.scrollup {
+  background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
+  bottom: 20px;
+  display: none;
+  height: 40px;
+  position: fixed;
+  right: 20px;
+  text-indent: -9999px;
+  width: 40px;
+}
+.section-title{
+  margin: 40px 0;
+}
 #about img{
   width: 100%;
   max-width: 370px;
@@ -280,8 +221,93 @@ footer {
 .post .fa, .glyphicon-time {
   color: #cc0000;
 }
-/* End of CSS Added to theme */
 
+#github-banner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 9999; }
+
+#github-banner #inner {
+  height: 149px;
+  width: 149px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0; }
+
+#github-banner #inner a {
+  display: block;
+  width: 225px;
+  font-size: 14px;
+  background-color: #333;
+  color: #efefef;
+  word-spacing: 2px;
+  text-decoration: none;
+  padding: 5px 15px 5px 25px;
+  position: relative;
+  left: 20px;
+  top: -37px;
+  text-align: center;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/*.logo a {
+  background: url("https://graph.facebook.com/iamcorinaacosta/picture?width=110&height=110") no-repeat center center;
+  text-indent: -9999px;
+  width: 100px;
+  height: 100px;
+  display: block;
+}*/
+#work .shots, #work .top-down{
+  margin-top: 70px;
+}
+#work article{
+  margin-bottom: 30px;
+}
+#work article:nth-child(odd) .shots img{
+  float: right;
+  margin-bottom: 1em;
+  margin-right: 3.125%;
+}
+#work article:nth-child(even) .shots img{
+  float: left;
+  margin-bottom: 1em;
+  margin-right: 3.125%;
+}
+#work article .top-down img{
+  margin-bottom:3.125%;
+  margin-right: 0;
+  float:none;
+  max-width: 750px;
+  width: 100%;
+}
+#work .shots .mobile{
+  max-width: 5em;
+  width: 10.66%;
+}
+#work .shots .tablet {
+  max-width: 12em;
+  width: 25.33%;
+}
+#work .shots .desktop {
+  margin-right: 0;
+  max-width: 25em;
+  width: 53.33%;
+}
+#work .more, .less{
+  padding-bottom: 12px;
+  display: block;
+}
+#work a:hover{text-decoration: none;}
 @media(max-width:767px) {
     .banner h2 {
         margin: 0;
@@ -308,3 +334,4 @@ footer {
   .banner h2 {font-size: 2em;}
   .intro-header{color: #000;background-image: none;}
 }
+/* End of CSS Added to theme */
