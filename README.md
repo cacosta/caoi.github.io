@@ -6,4 +6,4 @@ I have a desire to inspire and encourage women of all ages and backgrounds to pu
 
 When I'm not coding, you can find me dabbling in [photography](https://www.flickr.com/photos/corina_acosta/sets/), teaching, dancing, tinkering, or bending myself into a pretzel on a yoga mat.
 
-Twitter: @codelala
+Twitter: @caligirlcori
