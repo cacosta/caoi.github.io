@@ -1,4 +1,3 @@
-#My Personal Website
+# My Personal Website
 
-#Contact
 Twitter: @codelala
