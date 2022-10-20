@@ -1,1 +1,1 @@
-Twitter: @caligirlcori
+My personal site.
